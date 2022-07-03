@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT. </h1>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a]">Me. </h1>
         <p className="py-4">
           The purpose of msfvenom is to create encoded payloads or shellcode
           capable of being executed on a wide range of platforms—these are .

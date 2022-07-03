@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
     <div className="flex items-center justify-between h-24 max-w-[1240px] mx-auto px-4 text-white">
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">React.</h1>
+      <h1 className="w-full text-3xl font-bold text-[#00df9a]">Me.</h1>
       <ul className="hidden md:flex">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
