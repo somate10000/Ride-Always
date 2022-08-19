@@ -2,6 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #000300;
+
+
+@font-face {
+	font-family: "Poppins";
+	src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+	font-family: "PoppinsM";
+	src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+@font-face {
+	font-family: "Oxanium";
+	src: url("./assets/fonts/Oxanium-SemiBold.ttf");
+}
+@font-face {
+	font-family: "OxaniumM";
+	src: url("./assets/fonts/Oxanium-Medium.ttf");
+}
+@font-face {
+	font-family: "OxaniumR";
+	src: url("./assets/fonts/Oxanium-Regular.ttf");
+}
+@font-face {
+	font-family: "PubSans";
+	src: url("./assets/fonts/PublicSans-Regular.ttf");
+}
+
+
+
+
+
+
+.wrapper::-webkit-scrollbar { height: 10px; }
+
+.wrapper::-webkit-scrollbar-track { outline: 3px solid rgb(121, 120, 120);border-radius: 20px; }
+
+.wrapper::-webkit-scrollbar-thumb { background-color: rgb(53, 136, 192);;border-radius: 20px;  }
+
+.wrapper::-webkit-scrollbar-button { width: calc(25% - 40px); }
+
+
+.transition {
+  transition: 0.5s ease-in ;
+}
+
+.hero-banner {
+  background: url(./assets/hero-banner.jpg) left center / cover no-repeat;
+  border-radius: 30px;
+  
 }

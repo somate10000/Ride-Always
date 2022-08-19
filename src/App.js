@@ -1,19 +1,21 @@
 import React from "react";
-import Analytics from "./components/analytics";
-import Cards from "./components/cards";
+import Base from "./components/base";
+import Blog from "./components/blog";
+import Cars from "./components/cars";
 import Footer from "./components/footer";
+import GetStarted from "./components/getStarted";
 import Hero from "./components/hero";
 import NavBar from "./components/navBar";
-import NewsLetter from "./components/newsLetter";
 
 function App() {
   return (
-    <div>
+    <div className="box-border p-0 m-0">
       <NavBar />
       <Hero />
-      <Analytics />
-      <NewsLetter />
-      <Cards />
+      <Cars />
+      <GetStarted />
+      <Blog />
+      <Base />
       <Footer />
     </div>
   );
