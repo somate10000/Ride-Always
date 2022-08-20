@@ -111,13 +111,13 @@ const Cars = () => {
                       <h2 className="text-[22px] text-[#32324E] font-[PoppinsM] md:text-[20px]">
                         {info.name}
                       </h2>
-                      <div className="border-2 border-dashed border-[#1a9df460] flex items-center justify-center rounded-full px-4 md:px-[14px]">
+                      <div className="border-2 border-dashed h-[33px] border-[#1a9df460] flex items-center justify-center rounded-full px-4 md:px-[14px]">
                         <p className="text-[#22262A]  font-[PoppinsM] text-[14px] ">
                           {info.year}
                         </p>
                       </div>
                     </div>
-                    <div className="pr-20 mt-5 font-[PubSans] md:pr-0">
+                    <div className="pr-10 mt-5 font-[PubSans] md:pr-0">
                       <div className="flex items-center justify-between bg">
                         <div className="flex gap-2">
                           <IoPeopleOutline color="#1A9DF4" size={20} />
